@@ -10,7 +10,7 @@ sap.ui.define([
 	function (Controller, JSONModel, FlattenedDataset, FeedItem) {
 		"use strict";
 
-		return Controller.extend("iitp.zchart2401.controller.View1", {
+		return Controller.extend("iitp.chart2401.controller.View1", {
 			onInit: function () {
                 let oModel = new JSONModel();
                 oModel.loadData("../model/data_chart.json");
